@@ -1,0 +1,81 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+}
+
+section {
+    background-color: #f9f9f9;
+    padding: 20px;
+    text-align: center;
+}
+
+h1 {
+    color: #333;
+}
+
+h2 {
+    color: #555;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.card {
+    flex: 0 0 calc(33.333% - 20px);
+    margin: 10px;
+    background-color: #3498db;
+    border: 1px solid #2980b9;
+    border-radius: 5px;
+    overflow: hidden;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+.card_main {
+    padding: 15px;
+}
+
+.card_inner {
+    text-align: center;
+}
+
+.card_name {
+    font-size: 18px;
+    font-weight: bold;
+    color: #ecf0f1;
+    margin: 0;
+}
+
+.card_total {
+    font-size: 24px;
+    color: #ecf0f1;
+    margin: 5px 0;
+}
+
+.card_small {
+    font-size: 16px;
+    color: #3f2a3e;
+    margin: 0;
+}
+
+.card_name span {
+    color: #ecf0f1;
+}
+
+.card_small{
+    font-size: 30px;
+    font-weight: bold;
+    color: rgb(43, 13, 13);
+}
